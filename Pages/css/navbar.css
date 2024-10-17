@@ -1,0 +1,29 @@
+ul{
+    list-style: none; /*gets rid of bullet points*/
+    display: flex;
+    background-color: black;
+    margin: 0;
+    padding: 10px;
+    justify-content: flex-start;
+}
+
+li a{
+    text-decoration: none; /*gets rid of underline*/
+    color: white;
+    padding: 10px 30px;
+}
+
+body{
+    margin: 0;
+}
+
+/*Hovering over box changes color*/
+li a:hover{
+    background-color: rgb(56, 56, 56);
+}
+
+/*Clicking changes box color*/
+li a:active{
+    background-color: white;
+    color: black;
+}
