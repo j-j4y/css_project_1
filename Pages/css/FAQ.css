@@ -1,0 +1,87 @@
+html, body {
+height: 100%;
+width: 100%;
+}
+
+/* Drop down boxes styling */
+
+details {
+margin-bottom:10px;
+
+}
+
+summary:hover {
+    background: rgb(145, 140, 158);
+    transition: 0.2s background linear;
+  }
+
+summary {
+background: #757083;
+/* width: 500px; */
+padding: 20px;
+font-family: Playfair Display,serif;
+font-size: 20px;
+
+}
+
+/* info paragraph styling*/
+.FAQ p {
+    text-align:center;
+}
+
+h1 {
+text-align:center;
+}
+
+
+/* ticketing box styling */
+.Ticketing details {
+    text-align:left;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+
+.Ticketing details p {
+    margin: 20px;
+    
+}
+
+/* before event box styling */
+.Before_You_Go details {
+    text-align:left;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+
+.Before_You_Go details p {
+    margin: 20px;
+    
+}
+
+/* at event box styling */
+.At_The_Event details {
+    text-align:left;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+
+.At_The_Event details p {
+    margin: 20px;
+    
+}
+/* Image sizing */
+img {
+    max-width: 98%;
+    display: block;
+    margin:0 auto;
+    height: auto;
+    border: 10px solid #757083;
+    justify-content: center;
+   
+}
+
+
+
