@@ -8,4 +8,14 @@ h2{
 
 h1{
     margin: 10px;
+    text-align: center;
+}
+
+.pageContent{
+    font-family: "lato", sans-serif;
+    color: white;
+}
+
+body{
+    background-color: #474056;
 }
