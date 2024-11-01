@@ -41,11 +41,21 @@ text-align:center;
     margin-right: 20px;
 }
 
-
 .Ticketing details p {
     margin: 20px;
-    
+    font-family: Lato, sans-serif;
 }
+
+.Ticketing details h3 {
+    font-family: Lato, sans-serif;
+}
+
+.Ticketing details h4 {
+    font-family: Lato, sans-serif;
+
+}
+
+
 
 /* before event box styling */
 .Before_You_Go details {
@@ -54,11 +64,22 @@ text-align:center;
     margin-right: 20px;
 }
 
-
 .Before_You_Go details p {
     margin: 20px;
+    font-family: Lato, sans-serif;
     
 }
+
+.Before_You_Go details h3 {
+    font-family: Lato, sans-serif;
+}
+
+.Before_You_Go details h4 {
+    font-family: Lato, sans-serif;
+}
+
+
+
 
 /* at event box styling */
 .At_The_Event details {
@@ -70,18 +91,31 @@ text-align:center;
 
 .At_The_Event details p {
     margin: 20px;
+    font-family: Lato, sans-serif;
     
 }
-/* Image sizing */
-img {
-    max-width: 98%;
-    display: block;
-    margin:0 auto;
-    height: auto;
-    border: 10px solid #757083;
-    justify-content: center;
-   
+
+.At_The_Event details h3 {
+    font-family: Lato, sans-serif;
 }
+
+.At_The_Event details h4 {
+    font-family: Lato, sans-serif;
+}
+
+
+
+/* Image sizing */
+.row {
+    display: flex;
+  }
+
+  .column {
+    flex: 50%;
+    padding: 5px;
+  }
+  
+ 
 
 
 
