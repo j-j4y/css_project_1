@@ -118,6 +118,7 @@ body{
     border: 5px solid #474056;
     border-radius: 10px;
     box-sizing: border-box;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 .flex-container{
@@ -130,10 +131,24 @@ body{
 .header{
     font-weight: bold;
     text-align: center;
-    margin-bottom: px;
 }
 
 .paragraph{
     text-align: center;
 }
 
+.p-container {
+    display: flex;
+    gap: 20px; /* Space between boxes */
+    padding: 20px;
+    flex-wrap: wrap; /* Wraps boxes to the next row if they don't fit */
+}
+
+/* Each paragraph box */
+.p-box {
+    flex: 1 1 30%; /* Adjusts box width, grows/shrinks based on container */
+    padding: 15px;
+    border: 5px solid #474056;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}

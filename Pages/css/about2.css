@@ -77,3 +77,7 @@ h1, h2, p {
     align-items: center;
     padding: 0 10px;
 }
+
+.p-box {
+    flex: 1 1 100%; /* Full width on smaller screens */
+}
