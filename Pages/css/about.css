@@ -1,0 +1,139 @@
+p{
+    margin: 10px;
+}
+
+h2{
+    margin: 10px;
+}
+
+h1{
+    margin: 10px;
+    text-align: center;
+}
+
+.pageContent{
+    font-family: "lato", sans-serif;
+    color: black;
+}
+
+body{
+    margin: auto;
+}
+
+.imageContainer{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+}
+
+.imageContainer2 {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    width: 70%;
+}
+
+.section1{
+    display: block;
+    background-color: #474056;
+    margin-top: -15px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    color: white;
+}
+
+.section2{
+    display: block;
+    background-color: #474056;
+    margin-top: -15px;
+    margin-bottom: 25px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    color: white;
+}
+
+.section3{
+    display: block;
+    background-color: #474056;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    color: white;
+}
+
+.cards {
+    display: flex;
+    align-items: center;
+    gap: 100px;
+    justify-content: center;
+    margin-top: 15px;
+}
+
+.card-body {
+    width: 40rem;
+    margin-top: 10px;
+    border-style: solid;
+    border-color: rgb(38, 38, 38);
+    border-width: medium;
+    border-radius: 25px;
+    padding: 0px 10px 10px 10px;
+    box-sizing: border-box;
+    color: white;
+    background-color: #474056;
+}
+
+.mission{
+    text-align: center;
+    margin-top: 50px;
+}
+
+.mission-text{
+    text-align: center;
+    padding-bottom: 35px;
+}
+
+.card-text {
+    margin-top: 10px;
+}
+
+
+.image{
+    width: 100%;
+}
+
+.prelude{
+    width: 90%;
+    border: solid;
+    border-width: medium;
+    border-radius: 25px;
+    border-color: #474056;
+    margin-bottom: 50px;
+}
+
+.core-value {
+    width: 18%;
+    padding: 10px;
+    border: 5px solid #474056;
+    border-radius: 10px;
+    box-sizing: border-box;
+}
+
+.flex-container{
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+    align-content: flex-start;
+}
+
+.header{
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: px;
+}
+
+.paragraph{
+    text-align: center;
+}
+

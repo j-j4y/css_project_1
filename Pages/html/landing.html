@@ -3,74 +3,145 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Arimo:wght@500&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Arimo:wght@500&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="/Pages/css/navbar.css">
+    <link rel="stylesheet" href="/Pages/css/landing.css">
     <title>Colorado Symphony Orchestra</title>
 </head>
 <body>
     <!--Navbar Start-->
     <nav>
-      <ul>
-          <li><a href="landing.html">Home</a></li>
-          <li><a href="FAQ.html">FAQ</a></li>
-          <li><a href="about.html">About</a></li>
-          <li><a href="contact.html">Contact</a></li>
-          <li><a href="schedule.html">Schedule</a></li>
-      </ul>
-  </nav>
+        <div class="nav-container">
+            <a href="landing.html" id="title-link">
+                <h1 id="title">Colorado Symphony</h1>
+            </a>
+            <ul>
+                <li><a href="landing.html">Home</a></li>
+                <li><a href="FAQ.html">FAQ</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="schedule.html">Schedule</a></li>
+            </ul>
+        </div>
+    </nav>
   <!--Navbar end-->
     <!--Title of the Page-->
     <h1>Colorado Symphony Orchestra</h1>
-    <div class="2024/25_tickets">
-        <h2>2024/25 Season</h2>
-        <p>Tickets On Sale Now</p>
-        <p>Our State, Your Symphony</p>
-        <p><a href="/Pages/html/schedule.html">(Explore)</a></p>
-    </div>
-    <!--Brochure Section-->
-    <div class="2024/25_brochure">
-        <h2>2024/25 Season Brochure</h2>
-        <p>Browse the 2024/25 Season and join us as we celebrate the start of our second century of music-making in Colorado.</p>
-        <p><a href="/Pages/html/schedule.html">(Explore the Season)</a></p>
-    </div>
-    <!--Community Education Programs Section-->
-    <div class="Community_Education_Programs">
-        <h2>Explore Our Community Education Programs</h2>
-        <p>Engage your students with immersive, educational programming including youth concerts and open rehearsals with your Colorado Symphony.</p>
-    </div>
-    <!--First Timer's Guide-->
-    <div class="First_Timers_Guide">
-        <h2>First-Timer's Guide</h2>
-        <p>First time at the Symphony? Not sure what to see or where to start? Learn about the Colorado Symphony experience, the performance, and the music, with frequently asked questions specifically for Symphony newcomers.</p>
-        <p><a href="/Pages/html/FAQ.html">(Start Here)</a></p>
-    </div>
-    <!--Before and After the Concert Section-->
-    <div class="Before_and_After">
-        <h2>Before & After the Concert</h2>
-        <p>Your Colorado Symphony offers pre and post-concert events to enhance your performance experience, including Preludes, Talkbacks, and HalfNotes activities.</p>
-    </div>
-    <!--Family Series-->
-    <div class="Family_Series">
-        <h2>Family Series</h2>
-        <p>HalfNotes</p>
-        <p>Held in the Bach Room of Boettcher Concert Hall, these activities take place prior to specific family-friendly concerts throughout the season. Activities are individually curated for each concert and will feature rotating activities like concert-related crafts!</p>
-        <p><a href="/Pages/html/schedule.html">(View HalfNotes Concerts)</a></p>
-    </div>
-    <!--Classics Series-->
-    <div class="Classics Series">
-        <h2>Classics Series</h2>
-        <h3>Preludes</h3>
-        <p>Preludes take place at <time>6:30 p.m.</time> (FRI & SAT) and <time>12 p.m.</time> (SUN) in Boettcher Concert Hall, before every Classics performance, and are included with your concert ticket. Dive deeper into the music, learn about planning a concert, take a peak behind the curtain, and more! For details on a specific event date, please visit the individual performance web page or contact us at tickets@coloradosymphony.org.</p>
-        <p><a href="/Pages/html/schedule.html">(View All Classics)</a></p>
-        <h3>Talkbacks</h3>
-        <p>Following select Classics performances, enjoy a special 15-minute, post-concert discussion with the guest artist or conductor. Talkbacks take place in Boettcher Concert Hall and are included with your concert ticket. To find out which concerts include a Talkback, check the individual performance web page or contact us at tickets@coloradosymphony.org.</p>
-        <p><a href="/Pages/html/schedule.html">(View All Classics)</a></p>
-    </div>
-    <!--Guild Shop Section-->
-    <div class="Guild_Shop">
-        <h2>Colorado Symphony Guild Shop</h2>
-        <p>Gift Shop</p>
-        <p>Take home Colorado Symphony brand merchandise, fabulous jewelry, and must-have musical themed items from the Colorado Symphony Guild Shop. Located in Gallery 1 on the first floor of Boettcher Concert Hall, The Shop is the perfect place to pick up unique gifts, seasonal fashions, and of course recordings produced by, and of, the Colorado Symphony.</p>
-        <p><a href="Pages/html/about.html">(Learn More)</a></p>
-    </div>
+    <main id="page-content" class="main section-wrap">
+        <!--Tickets-->
+        <article class="article">
+          <div class="content">
+            <h2 class="headline">2024/25 Season</h2>
+            <p>Tickets On Sale Now</p>
+            <p>Our State, Your Symphony</p>
+            <p><a href="/Pages/html/schedule.html">Learn More</a></p>
+          </div>
+      
+          <figure class="image-wrap">
+            <img src='/Images/schedule/Seoyoen-Chloe-720x400-1.png' alt="Two women on the steps with cellos">
+          </figure>
+        </article>
+        <!--Brochure-->
+        <article class="article">
+          <div class="content">
+            <h2 class="headline">2024/25 Season Brochure</h2>
+            <p>Browse the 2024/25 Season and join us as we celebrate the start of our second century of music-making in Colorado.</p>
+            <p><a href="/Pages/html/schedule.html">Learn More</a></p>
+          </div>
+      
+          <figure class="image-wrap">
+            <img src="/Images/About/FY25-Brochure-Layout-770x435.jpg" alt="The brochure layout">
+          </figure>
+        </article>
+        <!--Community Education Programs Section-->
+        <article class="article">
+            <div class="content">
+              <h2 class="headline">Explore Our Community Education Programs</h2>
+              <p>Engage your students with immersive, educational programming including youth concerts and open rehearsals with your Colorado Symphony.</p>
+            </div>
+        
+            <figure class="image-wrap">
+              <img src="/Images/Lobby-Performance-945x530-1.jpg" alt="Young girl playing the flute and young boy playing the clarinet">
+            </figure>
+        </article>
+        <!--First Timer's Guide Section-->
+        <article class="article">
+            <div class="content">
+              <h2 class="headline">First-Timer's Guide</h2>
+              <p>First time at the Symphony? Not sure what to see or where to start? Learn about the Colorado Symphony experience, the performance, and the music, with frequently asked questions specifically for Symphony newcomers.</p>
+              <p><a href="/Pages/html/FAQ.html">Start Here</a></p>
+            </div>
+        
+            <figure class="image-wrap">
+              <img src="/Images/schedule/Steamboat-Springs-Alpenglow-720x400-1.jpg" alt="Steamboat Springs Alpenglow">
+            </figure>
+        </article>
+        <!--Before and After the Concert Section-->
+        <article class="article">
+            <div class="content">
+              <h2 class="headline">Before & After the Concert</h2>
+              <p>Your Colorado Symphony offers pre and post-concert events to enhance your performance experience, including Preludes, Talkbacks, and HalfNotes activities.</p>
+            </div>
+        
+            <figure class="image-wrap">
+              <img src="/Images/schedule/Bela-Fleck-Boettcher-720x400-1.jpg" alt="Bela Fleck Boettcher">
+            </figure>
+        </article>
+        <!--Family Series Section-->
+        <article class="article">
+            <div class="content">
+              <h2 class="headline">Family Series</h2>
+              <p>HalfNotes</p>
+              <p>Held in the Bach Room of Boettcher Concert Hall, these activities take place prior to specific family-friendly concerts throughout the season. Activities are individually curated for each concert and will feature rotating activities like concert-related crafts!</p>
+              <p><a href="/Pages/html/schedule.html">View Halfnote Concerts</a></p>
+            </div>
+        
+            <figure class="image-wrap">
+              <img src="/Images/About/Halfnotes-945x530-2.jpg" alt="Halfnotes child activity">
+            </figure>
+        </article>
+        <!--Classics Series Section 1-->
+        <article class="article">
+            <div class="content">
+              <h2 class="headline">Classics Series</h2>
+              <h3>Preludes</h3>
+              <p>Preludes take place at <time>6:30 p.m.</time> (FRI & SAT) and <time>12 p.m.</time> (SUN) in Boettcher Concert Hall, before every Classics performance, and are included with your concert ticket. Dive deeper into the music, learn about planning a concert, take a peak behind the curtain, and more! For details on a specific event date, please visit the individual performance web page or contact us at tickets@coloradosymphony.org.</p>
+              <p><a href="/Pages/html/schedule.html">View All Classics</a></p>
+            </div>
+        
+            <figure class="image-wrap">
+              <img src="/Images/About/Prelude-900x600-2.jpg" alt="Preludes">
+            </figure>
+        </article> 
+        <!--Classics Series Section 2-->
+        <article class="article">
+            <div class="content">
+              <h2 class="headline">Classics Series</h2>
+              <h3>Talkbacks</h3>
+              <p>Following select Classics performances, enjoy a special 15-minute, post-concert discussion with the guest artist or conductor. Talkbacks take place in Boettcher Concert Hall and are included with your concert ticket. To find out which concerts include a Talkback, check the individual performance web page or contact us at tickets@coloradosymphony.org.</p>
+              <p><a href="/Pages/html/schedule.html">View All Classics</a></p>
+            </div>
+        
+            <figure class="image-wrap">
+              <img src="/Images/About/Talkback-945x530-1.jpg" alt="Talkbacks">
+            </figure>
+        </article>
+        <!--Guild Shop Section-->                   
+        <article class="article flow">
+          <div class="content">
+            <h2 class="headline">Colorado Symphony Guild Shop</h2>
+            <p>Take home Colorado Symphony brand merchandise, fabulous jewelry, and must-have musical themed items from the Colorado Symphony Guild Shop. Located in Gallery 1 on the first floor of Boettcher Concert Hall, The Shop is the perfect place to pick up unique gifts, seasonal fashions, and of course recordings produced by, and of, the Colorado Symphony.</p>
+          </div>
+      
+          <figure class="image-wrap">
+            <img src='/Images/About/Guild-Shop.jpg' alt="Gift Shop">
+          </figure>
+        </article>
+      </main>
 </body>
 </html>

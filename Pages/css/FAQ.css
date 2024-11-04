@@ -1,0 +1,121 @@
+html, body {
+height: 100%;
+width: 100%;
+}
+
+/* Drop down boxes styling */
+
+details {
+margin-bottom:10px;
+
+}
+
+summary:hover {
+    background: rgb(145, 140, 158);
+    transition: 0.2s background linear;
+  }
+
+summary {
+background: #757083;
+/* width: 500px; */
+padding: 20px;
+font-family: Playfair Display,serif;
+font-size: 20px;
+
+}
+
+/* info paragraph styling*/
+.FAQ p {
+    text-align:center;
+}
+
+h1 {
+text-align:center;
+}
+
+
+/* ticketing box styling */
+.Ticketing details {
+    text-align:left;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.Ticketing details p {
+    margin: 20px;
+    font-family: Lato, sans-serif;
+}
+
+.Ticketing details h3 {
+    font-family: Lato, sans-serif;
+}
+
+.Ticketing details h4 {
+    font-family: Lato, sans-serif;
+
+}
+
+
+
+/* before event box styling */
+.Before_You_Go details {
+    text-align:left;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.Before_You_Go details p {
+    margin: 20px;
+    font-family: Lato, sans-serif;
+    
+}
+
+.Before_You_Go details h3 {
+    font-family: Lato, sans-serif;
+}
+
+.Before_You_Go details h4 {
+    font-family: Lato, sans-serif;
+}
+
+
+
+
+/* at event box styling */
+.At_The_Event details {
+    text-align:left;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+
+.At_The_Event details p {
+    margin: 20px;
+    font-family: Lato, sans-serif;
+    
+}
+
+.At_The_Event details h3 {
+    font-family: Lato, sans-serif;
+}
+
+.At_The_Event details h4 {
+    font-family: Lato, sans-serif;
+}
+
+
+
+/* Image sizing */
+.row {
+    display: flex;
+  }
+
+  .column {
+    flex: 50%;
+    padding: 5px;
+  }
+  
+ 
+
+
+
