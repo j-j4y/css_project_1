@@ -1,7 +1,6 @@
-body {
-    font-family: "Lato", sans-serif;
-    margin: 0;
-    padding: 0;
+.pageContent{
+  font-family: "lato", sans-serif;
+  color: black;
 }
 
 .events-grid {
