@@ -45,6 +45,6 @@ body {
 }
  /* Extra small devices (phones, 600px and down) */
  @media only screen and (max-width: 600px) {
-    .nav p  {padding: 20px;}
+    .nav  {padding: 20px;}
 
  }
